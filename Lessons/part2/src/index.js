@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import axios from 'axios'
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+/*
+// axios.get('http://localhost:3001/notes').then(response=> console.log(response.data))
+
+// const promise2 = axios.get('http://localhost:3001/foobar')
+// console.log(promise2)
 
 const notes = [
   {
@@ -24,10 +31,11 @@ const notes = [
     important: true
   }
 ]
+*/
 
 ReactDOM.render(
   <React.StrictMode>
-    <App notes= {notes} />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
